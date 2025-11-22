@@ -16,6 +16,8 @@ dependencies:
     sdk: flutter
   flutter_whisper_kit_apple:
     path: ../flutter_whisper_kit_apple
+  flutter_whisper_kit_web:
+    path: ../flutter_whisper_kit_web
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
@@ -36,3 +38,5 @@ flutter:
         default_package: flutter_whisper_kit_apple
       macos:
         default_package: flutter_whisper_kit_apple
+      web:
+        default_package: flutter_whisper_kit_web
